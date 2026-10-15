@@ -1,4 +1,5 @@
 import 'package:first_app/features/home/home_screen.dart';
+import 'package:first_app/features/settings/setting_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -17,7 +18,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeScreen()
+      home: Settings()
     );
   }
 }
